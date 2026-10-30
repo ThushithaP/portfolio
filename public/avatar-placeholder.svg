@@ -1,0 +1,26 @@
+<svg width="600" height="700" viewBox="0 0 600 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="circleClip">
+      <circle cx="300" cy="300" r="300" />
+    </clipPath>
+  </defs>
+  <circle cx="300" cy="300" r="300" fill="#FFFFFF" />
+  <g clip-path="url(#circleClip)">
+    <rect x="0" y="0" width="600" height="700" fill="#F0EADC" />
+    <!-- shoulders / sweater -->
+    <path d="M120 700 C120 520 190 430 300 430 C410 430 480 520 480 700 Z" fill="#E8A63A" />
+    <!-- neck -->
+    <rect x="255" y="330" width="90" height="90" rx="20" fill="#E7B77E" />
+    <!-- head -->
+    <ellipse cx="300" cy="270" rx="95" ry="105" fill="#EEC191" />
+    <!-- beard -->
+    <path d="M215 280 C215 370 250 400 300 400 C350 400 385 370 385 280 C385 340 350 365 300 365 C250 365 215 340 215 280 Z" fill="#B5652F" />
+    <!-- beanie -->
+    <path d="M195 235 C195 160 240 110 300 110 C360 110 405 160 405 235 C405 245 400 250 390 250 L210 250 C200 250 195 245 195 235 Z" fill="#C1382B" />
+    <rect x="190" y="225" width="220" height="35" rx="17" fill="#A82E22" />
+    <!-- eyes -->
+    <circle cx="265" cy="270" r="8" fill="#173F3A" />
+    <circle cx="335" cy="270" r="8" fill="#173F3A" />
+  </g>
+  <circle cx="300" cy="300" r="296" fill="none" stroke="#E8A63A" stroke-width="6" />
+</svg>

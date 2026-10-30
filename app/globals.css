@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-hand: "Kalam", cursive;
+  --font-script: "Yellowtail", cursive;
+  --font-body: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F5F1E7;
+  color: #173F3A;
+}
+
+.dashed-arrow {
+  stroke-dasharray: 7 7;
+}
