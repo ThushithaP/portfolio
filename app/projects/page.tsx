@@ -20,7 +20,7 @@ const projects = [
     desc: "A comprehensive e-commerce administration platform for managing business operations across branches and warehouses. Includes product catalog management, inventory control, order processing, customer management, procurement, promotions, shipping configuration, and role-based access control.",
     stack: ["Django", "Angular", "PostgreSQL"],
     images: [
-      "/projects/ecommerce/1.gif",
+      "/projects/ecommerce/1.png",
       "/projects/ecommerce/2.png",
     ],
     url: "",
